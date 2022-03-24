@@ -17,7 +17,8 @@ const NavBar = () => (
                             <a class="nav-link text-dark" href="/">Home</a>
                         </li>
                         <li  class="nav-item">
-                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                            {/* <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a> */}
+                            <Link className="nav-link" to="/Home/Privacy">Privacy</Link>
                         </li>
                     </ul>
                 </div>
